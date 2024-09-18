@@ -5,6 +5,8 @@ import { Parent } from "./components/PropsExample/Parent";
 import { MapComponent } from "./components/MapMethod/MapComponent";
 import { MainHook } from "./HOOK/MainHook";
 import { ClassState } from "./HOOK/ClassState";
+import { FunctionEvent } from "./EVENT/FunctionEvent";
+import { ClassEvent } from "./EVENT/ClassEvent";
 
 function App() {
   return (
@@ -14,7 +16,9 @@ function App() {
      {/* <Parent/> */}
      {/* <MapComponent/> */}
      {/* <MainHook/> */}
-     <ClassState/>
+     {/* <ClassState/> */}
+     {/* <FunctionEvent/> */}
+     <ClassEvent/>
     </div>
   );
 }
