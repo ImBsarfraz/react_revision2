@@ -7,6 +7,7 @@ import { MainHook } from "./HOOK/MainHook";
 import { ClassState } from "./HOOK/ClassState";
 import { FunctionEvent } from "./EVENT/FunctionEvent";
 import { ClassEvent } from "./EVENT/ClassEvent";
+import { LifecycleMain } from "./LIFECYCLE METHODS/LifecycleMain";
 
 function App() {
   return (
@@ -15,10 +16,11 @@ function App() {
      {/* <ClassComponent/> */}
      {/* <Parent/> */}
      {/* <MapComponent/> */}
-     {/* <MainHook/> */}
      {/* <ClassState/> */}
      {/* <FunctionEvent/> */}
-     <ClassEvent/>
+     {/* <ClassEvent/> */}
+     {/* <LifecycleMain/> */}
+     <MainHook/>
     </div>
   );
 }
